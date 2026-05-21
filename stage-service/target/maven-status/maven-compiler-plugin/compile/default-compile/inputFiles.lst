@@ -1,0 +1,8 @@
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\entities\Stage.java
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\feign\EnseignantServiceClient.java
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\feign\EtudiantServiceClient.java
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\model\Enseignant.java
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\model\Etudiant.java
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\repository\StageRepository.java
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\StageServiceApplication.java
+C:\Dev\Micro_Services\workspace\suivi-stages\stage-service\src\main\java\org\ms\suivistages\stageservice\web\StageRestController.java

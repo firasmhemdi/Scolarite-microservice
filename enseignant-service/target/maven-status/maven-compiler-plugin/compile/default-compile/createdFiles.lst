@@ -1,0 +1,4 @@
+org\ms\suivistages\enseignantservice\entities\Enseignant.class
+org\ms\suivistages\enseignantservice\EnseignantServiceApplication.class
+org\ms\suivistages\enseignantservice\repository\EnseignantRepository.class
+org\ms\suivistages\enseignantservice\web\EnseignantRestController.class

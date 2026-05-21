@@ -1,0 +1,9 @@
+org\ms\suivistages\scolariteservice\feign\StageServiceClient.class
+org\ms\suivistages\scolariteservice\ScolariteServiceApplication.class
+org\ms\suivistages\scolariteservice\web\ScolariteRestController.class
+org\ms\suivistages\scolariteservice\model\Etudiant.class
+org\ms\suivistages\scolariteservice\model\Stage.class
+org\ms\suivistages\scolariteservice\feign\EtudiantServiceClient.class
+org\ms\suivistages\scolariteservice\feign\EnseignantServiceClient.class
+org\ms\suivistages\scolariteservice\web\HomeController.class
+org\ms\suivistages\scolariteservice\model\Enseignant.class

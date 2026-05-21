@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Suivi des stages</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="app-shell">
+    <section id="listPage">
+        <div class="toolbar">
+            <div>
+                <p class="eyebrow">Scolarite service - port 8081</p>
+                <h1>Suivi des stages</h1>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Liste des stages</h2>
+                <button id="refreshButton" type="button">Actualiser</button>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Sujet</th>
+                        <th>Adresse</th>
+                        <th>Etudiant</th>
+                        <th>Enseignant</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody id="stageRows">
+                    <tr>
+                        <td colspan="6" class="empty">Chargement...</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="editPage" style="display:none">
+        <div class="toolbar">
+            <div>
+                <p class="eyebrow">Scolarite service - port 8081</p>
+                <h1>Modifier un stage</h1>
+            </div>
+            <button id="backButton" type="button">&larr; Retour</button>
+        </div>
+
+        <div class="panel">
+            <form id="stageForm">
+                <input id="stageId" type="hidden">
+
+                <label for="code">Code</label>
+                <input id="code" name="code" type="text" required placeholder="STG-001">
+
+                <label for="sujet">Sujet</label>
+                <textarea id="sujet" name="sujet" rows="4" required placeholder="Sujet du stage"></textarea>
+
+                <label for="adresse">Adresse</label>
+                <input id="adresse" name="adresse" type="text" required placeholder="Sfax">
+
+                <label for="etudiantId">Etudiant</label>
+                <select id="etudiantId" name="etudiantId" required></select>
+
+                <label for="enseignantId">Enseignant</label>
+                <select id="enseignantId" name="enseignantId" required></select>
+
+                <button id="saveButton" type="submit">Enregistrer</button>
+                <p id="message" role="status"></p>
+            </form>
+        </div>
+    </section>
+</main>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+org\ms\suivistages\stageservice\StageServiceApplication.class
+org\ms\suivistages\stageservice\feign\EnseignantServiceClient.class
+org\ms\suivistages\stageservice\model\Enseignant.class
+org\ms\suivistages\stageservice\entities\Stage.class
+org\ms\suivistages\stageservice\feign\EtudiantServiceClient.class
+org\ms\suivistages\stageservice\model\Etudiant.class
+org\ms\suivistages\stageservice\repository\StageRepository.class
+org\ms\suivistages\stageservice\web\StageRestController.class

@@ -1,0 +1,4 @@
+org\ms\suivistages\etudiantservice\repository\EtudiantRepository.class
+org\ms\suivistages\etudiantservice\EtudiantServiceApplication.class
+org\ms\suivistages\etudiantservice\web\EtudiantRestController.class
+org\ms\suivistages\etudiantservice\entities\Etudiant.class
